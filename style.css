@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+
+body {
+    font-family: Arial, sans-serif; 
+    text-align: center;
+    margin: 0; 
+    background-color: #e1a4ab; 
+}
+
+#container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh;
+}
+
+#question {
+    font-family: "DynaPuff", serif;
+    font-size: 52px; 
+}
+
+#options {
+    margin-top: 20px;
+}
+
+#question-container {
+    background-color: #efb6bc;
+    padding: 50px 50px;
+    border: 10px solid #c17f86;
+}
+
+button {
+    padding: 10px 20px; 
+    margin: 0 10px; 
+    font-size: 26px; 
+    font-family: "DynaPuff", serif;
+    background-color: #c17f86; 
+    color: white;
+    border: none; 
+    cursor: pointer;
+}
+
+#text {
+    font-size: 40px; 
+    font-family: "DynaPuff", serif;
+    color: rgb(0, 0, 0);
+}
+
+#yay-container{ 
+    font-size: 40px; 
+    font-family: "DynaPuff", serif;
+    color: rgb(0, 0, 0);
+}
